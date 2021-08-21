@@ -1,0 +1,41 @@
+.AllMatches{
+    display: flex;
+    flex-direction: row;
+}
+.matchDetail{
+    width: 300px;
+    /* height: 100px; */
+    background-color: aqua;
+}
+
+
+
+/* SCORECARD */
+table{
+    width: 100%;
+    text-align: center;
+}
+/* .div-right{
+    
+    text-align: center;
+    justify-content: flex-end;
+    display: inline-block;
+}
+.div-left{
+    text-align: center;
+    justify-content: flex-start;
+    display: inline-block;
+
+} */
+
+
+
+/* SCOREPAD */
+
+.head-div, .team-score{
+    text-align: center;
+}
+.team-score > h4,h3{
+    display: inline-block;
+    margin: 5px;
+}
