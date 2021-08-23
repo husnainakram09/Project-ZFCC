@@ -63,7 +63,7 @@ export default function TeamPlayers() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // console.log(playerName);
+        console.log(playerName);
 
 
         const newPlayer = {
@@ -81,7 +81,7 @@ export default function TeamPlayers() {
         }
 
         addPlayer(newPlayer);
-        History.push("/");
+        History.push("/schedule");
     }
 
 

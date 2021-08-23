@@ -3,11 +3,18 @@ import './style.css'
 import {useHistory} from 'react-router-dom';
 import { GlobalContext } from '../ContextApi/GlobalState';
 // import Toss from './Toss';
+import PopUp from './PopUp';
 
-function Home() {
+function MatchSchedule() {
 
     const { matches } = useContext(GlobalContext);
     let History = useHistory();
+
+
+
+    // const openPopup =()=>{
+    //     <PopUp />
+    // }
     return (
         <div>
             <h1>Welcome to zfcc scoring pad</h1>
@@ -33,10 +40,13 @@ function Home() {
                 Match Details
             </button>
 
+            {/* <button onClick={openPopup}>popup</button> */}
+            <PopUp/>
+
 
 
             {/* <Toss /> */}
         </div>
     )
 }
-export default Home;
+export default MatchSchedule;

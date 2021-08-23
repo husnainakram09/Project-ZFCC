@@ -2,7 +2,7 @@ import { createContext, useReducer } from "react";
 import { Reducer } from "./Reducer";
 
 const intialMatchData = {
-    matches: []
+    matches: [],
 }
 
 const intialTeamA = {
